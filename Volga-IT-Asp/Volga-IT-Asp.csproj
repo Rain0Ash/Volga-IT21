@@ -1,0 +1,51 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <OutputType>Exe</OutputType>
+        <RootNamespace>Volga_IT</RootNamespace>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.10" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.10" />
+        <PackageReference Include="Serilog.Extensions.Logging.File" Version="2.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Volga-IT-Database\Volga-IT-Database.csproj" />
+      <ProjectReference Include="..\Volga-IT\Volga-IT.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="publish\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="publish\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="publish\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Remove="publish\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="publish\x64\publish\x64\web.config" />
+      <_ContentIncludedByDefault Remove="publish\x64\web.config" />
+      <_ContentIncludedByDefault Remove="publish\x64\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="publish\x64\appsettings.json" />
+      <_ContentIncludedByDefault Remove="publish\x64\publish\x64\appsettings.Development.json" />
+      <_ContentIncludedByDefault Remove="publish\x64\publish\x64\appsettings.json" />
+      <_ContentIncludedByDefault Remove="publish\x64\publish\x64\Volga-IT-Asp.deps.json" />
+      <_ContentIncludedByDefault Remove="publish\x64\publish\x64\Volga-IT-Asp.runtimeconfig.json" />
+      <_ContentIncludedByDefault Remove="publish\x64\Volga-IT-Asp.deps.json" />
+      <_ContentIncludedByDefault Remove="publish\x64\Volga-IT-Asp.runtimeconfig.json" />
+    </ItemGroup>
+
+</Project>

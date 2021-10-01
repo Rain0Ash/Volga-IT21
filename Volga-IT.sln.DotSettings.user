@@ -1,0 +1,7 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=138d79d6_002D002d_002D465a_002D8c13_002D6af53a996603/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="All tests from &amp;lt;Volga-IT-Tests&amp;gt;\&amp;lt;Volga-IT-Tests&amp;gt; #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="H:\GitHub\Volga-IT\2021\Volga-IT\Volga-IT-Tests" Presentation="&amp;lt;Volga-IT-Tests&amp;gt;\&amp;lt;Volga-IT-Tests&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a3a2b783_002D68c3_002D4857_002D93c2_002D3a0094a589f5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="All tests from &amp;lt;Volga-IT-Tests&amp;gt;\&amp;lt;Volga-IT-Tests&amp;gt;" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Project Location="H:\GitHub\Volga-IT\2021\Volga-IT\Volga-IT-Tests" Presentation="&amp;lt;Volga-IT-Tests&amp;gt;\&amp;lt;Volga-IT-Tests&amp;gt;" /&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
